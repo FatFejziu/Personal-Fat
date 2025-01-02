@@ -1,0 +1,10 @@
+Flask==2.0.1
+
+To start the Flask API server, run:
+python app/api.py
+The app will be available at http://127.0.0.1:5000
+
+
+Run your unit tests using:
+python -m unittest discover tests/
+This will execute all the test cases in the tests folder, including test_user_service.py and test_post_service.py.
